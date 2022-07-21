@@ -8,8 +8,9 @@ div#contactCard {
     padding-right: 5px;
 }
 
-div#pageWrap {padding: 
-    5;width: 1000px;
+div#pageWrap {
+    padding:5;
+    width: 1000px;
     margin: auto;
     border: solid 1px black;
 }

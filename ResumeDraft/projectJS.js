@@ -31,14 +31,11 @@ function createResume() {
     education()
     references()
 
-
-
     container.appendChild(contactInfo)
     container.appendChild(mainInfo)    
     container.appendChild(educationInfo)
     container.appendChild(referenceInfo)    
     resume.body.appendChild(container)
-
 }
 
 function header() {
@@ -47,6 +44,7 @@ function header() {
     var nameText = fname + " " + lname
     var nameNode = resume.createTextNode(nameText)
     var header = resume.createElement("h1")
+    
     header.id = "name"
     header.appendChild(nameNode)
     contactInfo.appendChild(header)
